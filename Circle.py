@@ -8,7 +8,7 @@ plt.axes()
 def circleplot(radius):
     circle = plt.Circle((0,0),radius, fc='y')    
     plt.gca().add_patch(circle)
-    #plt.savefig('circle.png')
+    plt.savefig('circle.png')
     plt.show()
     
 #plt.axis('scaled')
